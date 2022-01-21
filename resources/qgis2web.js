@@ -77,7 +77,7 @@ var layerSwitcher = new ol.control.LayerSwitcher({tipLabel: "Layers"});
 map.addControl(layerSwitcher);
 
     var searchLayer = new SearchLayer({
-      layer: lyr_USP_5,
+      layer: lyr_USP_3,
       colName: 'Nom',
       zoom: 10,
       collapsed: true,
@@ -89,7 +89,7 @@ map.addControl(layerSwitcher);
     .getElementsByTagName('button')[0].className +=
     ' fa fa-binoculars';
     
-map.getView().fit([-28929.232788, 992124.935336, 233027.354616, 1141248.795970], map.getSize());
+map.getView().fit([-8536.704854, 987643.406815, 253419.882550, 1136749.909568], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
